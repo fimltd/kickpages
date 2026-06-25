@@ -10,18 +10,22 @@ added as skills under the same plugin over time.
 
 ## Install
 
-In Claude Code:
+1. **Open Claude Code.** In VS Code (or any terminal), type:
+   ```
+   claude
+   ```
 
-```
-/plugin marketplace add https://github.com/fimltd/kickpages.git
-/plugin install kickpages
-```
+2. **Add the plugin.** Inside Claude, run:
+   ```
+   /plugin marketplace add https://github.com/fimltd/kickpages.git
+   /plugin install kickpages
+   ```
 
-Then restart / reload, and verify:
-
-```
-/mcp        →  kickpages should show as connected
-```
+3. **Restart Claude Code** — close the Claude window / terminal and open it again
+   (just Claude, **not** your computer). Then verify:
+   ```
+   /mcp        →  kickpages should show as connected
+   ```
 
 ## Requirements
 
@@ -31,9 +35,16 @@ Then restart / reload, and verify:
 
 ## First use — sign in
 
-The first time you build something, Claude will sign you in: it asks for your
-KickPages email + password once, then stores **only the resulting login tokens**
-locally in `~/.claude/kickpages-auth.json`. Your password is never written to disk.
+Just type in Claude:
+
+```
+sign in to kickpages
+```
+
+It asks for your KickPages email + password once, then stores **only the resulting
+login tokens** locally in `~/.claude/kickpages-auth.json` — your password is never
+written to disk. (If you skip this, the first funnel you build will prompt you to
+sign in anyway.)
 
 ## Usage
 
