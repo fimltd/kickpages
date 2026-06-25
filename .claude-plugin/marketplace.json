@@ -1,0 +1,14 @@
+{
+  "name": "kickpages",
+  "owner": { "name": "KickPages", "url": "https://kickpages.com" },
+  "metadata": {
+    "description": "Official KickPages tools for Claude Code — build funnels and more from a prompt."
+  },
+  "plugins": [
+    {
+      "name": "kickpages",
+      "source": "./",
+      "description": "KickPages AI tools for Claude Code — build funnels (and more) from a prompt."
+    }
+  ]
+}

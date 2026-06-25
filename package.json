@@ -1,0 +1,16 @@
+{
+  "name": "kickpages-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KickPages plugin for Claude Code — MCP server + skills (FunnelAI and more).",
+  "scripts": {
+    "build": "esbuild src/index.mjs --bundle --platform=node --format=esm --outfile=dist/index.mjs --banner:js=\"import { createRequire as __cr } from 'module'; const require = __cr(import.meta.url);\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kickpages",
+  "version": "1.0.0",
+  "description": "KickPages AI tools for Claude Code — build funnels (and more) from a prompt via the KickPages API.",
+  "author": { "name": "KickPages", "url": "https://kickpages.com" },
+  "homepage": "https://kickpages.com",
+  "license": "SEE LICENSE IN LICENSE"
+}
